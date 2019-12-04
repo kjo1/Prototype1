@@ -1,0 +1,191 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="css/calendar.css" rel="stylesheet" />
+    <link href="css/team.css" rel="stylesheet" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Squash Niagara</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #5E54A0;">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img src="pictures/Squash Niagara Logo.png" width="115" height="115" alt="">
+            </a>
+        </div>
+    </nav>
+
+
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #383361;">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html" style="color: white; padding-right:30px;">Home </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="teams.html" style="color: white; padding-right:30px;">Teams</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="players.html" style="color: white; padding-right:30px;">Players</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="standings.html" style="color: white; padding-right:30px;">Standings</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="schedule.html" style="color: white; padding-right:30px;"><span class="sr-only">(current)</span>Schedule</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="news.html" style="color: white; padding-right:30px;">News</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="overview.html" style="color: white; padding-right:30px;">About</a>
+                    </li>
+                </ul>
+                <br>
+                <a class="nav-link rightnav" href="login.html" style="color:white;">Login</a>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="teams.html">Schedule</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </nav>
+    </div>
+
+    <!--<div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+            </li>
+
+            <li class="nav-item dropdown ">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    2018-2019 Men's Divisions
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">2018-2019 Men's Division 1/2</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">2018-2019 Men's Division 3</a>
+                    <a class="dropdown-item" href="#">2018-2019 Men's Division 4</a>
+                    <a class="dropdown-item" href="#">2018-2019 Women's Division</a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+    </div>-->
+
+
+    <content>
+        <div class="wrapper">
+            <main>
+                <div class="toolbar">
+                    <div class="current-month">
+                        <!--January, 2019-->
+                        <input style="margin-right:20px;" type="date" name="bday" value="2019-01-28">
+                        <button class="btn btn-sm btn-outline-primary mr-2" (click)="dp.navigateTo()">To current month</button>
+                    </div>
+
+                    <!--<form action="/action_page.php">
+                        <input type="month" name="bdaymonth" value="2019-01">
+                    </form>-->
+
+                    <a href="Fixture_Create.html" class="btn btn-dark">ADD</a>
+                </div>
+                <div class="calendar">
+                    <div class="calendar__header">
+                        <div style="color:red">sun</div>
+                        <div>mon</div>
+                        <div>tue</div>
+                        <div>wed</div>
+                        <div>thu</div>
+                        <div>fri</div>
+                        <div style="color:blue">sat</div>
+                    </div>
+                    <div class="calendar__week">
+                        <div class="calendar__day day" style="color:lightgrey">30</div>
+                        <div class="calendar__day day" style="color:lightgrey">31 <br /><br />Brock 1 vs White Oaks1  </div>
+                        <div class="calendar__day day">1 <br /><br /><a href="teams_Details.html"> Ridley 2</a> vs White Oaks4</div>
+                        <div class="calendar__day day">2</div>
+                        <div class="calendar__day day">3 <br /><br />BAC 2 vs White Oaks 3</div>
+                        <div class="calendar__day day">4 <br /><br />BAC 1 vs White Oaks 4</div>
+                        <div class="calendar__day day">5</div>
+                    </div>
+                    <div class="calendar__week">
+                        <div class="calendar__day day">6</div>
+                        <div class="calendar__day day">7</div>
+                        <div class="calendar__day day">8 <br /><br /><a>Ridley 2</a> vs Brock 1 </div>
+                        <div class="calendar__day day">9<br /><br />White Oaks 2 vs BAC 2</div>
+                        <div class="calendar__day day">10 </div>
+                        <div class="calendar__day day">11 <br /><br />BAC 1 vs White Oaks 4</div>
+                        <div class="calendar__day day">12</div>
+                    </div>
+                    <div class="calendar__week">
+                        <div class="calendar__day day">13</div>
+                        <div class="calendar__day day">14 <br />BAC 1 vs Ridley 2</div>
+                        <div class="calendar__day day">15 <br />White Oaks 1 vs Brock 1</div>
+                        <div class="calendar__day day">16</div>
+                        <div class="calendar__day day">17 <br />White Oaks 4 vs White Oaks 2</div>
+                        <div class="calendar__day day">18</div>
+                        <div class="calendar__day day">19</div>
+                    </div>
+                    <div class="calendar__week">
+                        <div class="calendar__day day">20</div>
+                        <div class="calendar__day day">21</div>
+                        <div class="calendar__day day">22 <br />BAC 2 vs Ridley 2</div>
+                        <div class="calendar__day day">23<br /><br />White Oaks 3 vs BAC 1</div>
+                        <div class="calendar__day day">24 </div>
+                        <div class="calendar__day day">25 <br />White Oaks 2 vs White Oaks 1</div>
+                        <div class="calendar__day day">26</div>
+                    </div>
+                    <div class="calendar__week">
+                        <div class="calendar__day day">27</div>
+                        <div class="calendar__day day">28 <br />White Oaks 1 vs Ridley2</div>
+                        <div class="calendar__day day">29 <br />White Oaks 2 vs Brock 1</div>
+                        <div class="calendar__day day">30</div>
+                        <div class="calendar__day day">31 <br />BAC 2 vs White Oaks 3</div>
+                        <div class="calendar__day day" style="color:lightgrey">1 <br />BAC 1 vs White Oaks 4</div>
+                        <div class="calendar__day day" style="color:lightgrey">2</div>
+                    </div>
+                </div>
+            </main>
+
+            <sidebar style="margin-left:40px;">
+                <div>Upcoming Matches</div>
+                BAC2 vs Brock 1
+                Ridley 2 vs Ridley 3
+                BAC 1 vs BAC2
+            </sidebar>
+        </div>
+    </content>
+    <footer><div class="copyright">copyright &copy; 2018</div></footer>
+
+
+</body>
+
+
+</html>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>

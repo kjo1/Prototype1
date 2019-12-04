@@ -1,0 +1,316 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="css/team.css" rel="stylesheet" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Squash Niagara</title>
+    <style>
+        th {
+            border-bottom: 1px solid rgba(192, 192, 192, .5);
+        }
+
+        tr {
+            transition: background-color 0.5s ease;
+            background-color: white;
+        }
+
+            tr:hover {
+                background-color: rgba(192, 192, 192, .3);
+            }
+
+        table {
+            font-size: 15px;
+        }
+
+        a {
+            color: black;
+            text-decoration: none;
+            transition: background-color 0.5s ease;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #5E54A0;">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img src="pictures/Squash Niagara Logo.png" width="115" height="115" alt="">
+            </a>
+        </div>
+    </nav>
+
+
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #383361;">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html" style="color: white; padding-right:30px;">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="teams.html" style="color: white; padding-right:30px;">Teams</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="players.html" style="color: white; padding-right:30px;">Players</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="standings.html" style="color: white; padding-right:30px;">Standings</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="schedule.html" style="color: white; padding-right:30px;">Schedule</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="news.html" style="color: white; padding-right:30px;">News</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="overview.html" style="color: white; padding-right:30px;">About</a>
+                    </li>
+                </ul>
+                <br>
+                <a class="nav-link rightnav" href="login.html" style="color:white;">Login</a>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="teams.html">Standings</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <!--<li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>-->
+
+                    <li class="nav-item dropdown ">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            2018-2019 Men's Divisions
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">2018-2019 Men's Division 1/2</a>
+                            <!--<div class="dropdown-divider"></div>-->
+                            <a class="dropdown-item" href="#">2018-2019 Men's Division 3</a>
+                            <a class="dropdown-item" href="#">2018-2019 Men's Division 4</a>
+                            <a class="dropdown-item" href="#">2018-2019 Women's Division</a>
+                        </div>
+                    </li>
+                    <!--<li class="nav-item">
+                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                    </li>-->
+                </ul>
+            </div>
+        </nav>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg">
+                    <div class="card" style="max-width: 22rem;">
+                        <div class="card-header">
+                            Position 1
+                        </div>
+                        <div class="card-body">
+                            <table>
+                                <tr>
+                                    <th style="padding-right: 50px; padding-bottom: 15px; ">Player</th>
+                                    <th style="padding-left: 50px;">%</th>
+                                </tr>
+
+                                <tr>
+                                    <td style="padding-right: 50px; padding-bottom: 15px; padding-top: 15px;"><a href="#">Huck, Murray</a></td>
+                                    <td style="padding-left: 50px;">71</td>
+                                </tr>
+
+                                <tr>
+                                    <td style="padding-right: 50px; padding-bottom: 15px;"><a href="#">Lipinski, Jakub</a></td>
+                                    <td style="padding-left: 50px;">67</td>
+                                </tr>
+                                <tr>
+                                    <td style="padding-right: 50px; padding-bottom: 15px;"><a href="#">Forgeron, Rachael</a></td>
+                                    <td style="padding-left: 50px;">63</td>
+                                </tr>
+                                <tr>
+                                    <td style="padding-right: 50px; padding-bottom: 15px;"><a href="#">Savarie, Chris</a></td>
+                                    <td style="padding-left: 50px;">57</td>
+                                </tr>
+                                <tr>
+                                    <td style="padding-right: 50px; padding-bottom: 15px;"><a href="#">Crouch, Spencer</a></td>
+                                    <td style="padding-left: 50px;">53</td>
+                                </tr>
+                                <tr>
+                                    <td style="padding-right: 50px; padding-bottom: 15px;"><a href="#">Hajek, Matt</a></td>
+                                    <td style="padding-left: 50px;">44</td>
+                                </tr>
+                                <tr>
+                                    <td style="padding-right: 50px; padding-bottom: 15px;"><a href="#">Holland, Greg</a></td>
+                                    <td style="padding-left: 50px;">26</td>
+                                </tr>
+                                <tr>
+                                    <td style="padding-right: 50px; padding-bottom: 15px;"><a href="#">Sharron, David</a></td>
+                                    <td style="padding-left: 50px;">20</td>
+                                </tr>
+                            </table>
+                            <hr />
+                            <p class="card-text" style="color: darkred"><i>Not Confirmed</i></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg">
+                    <div class="card" style="max-width: 22rem;">
+                        <div class="card-header">
+                            Position 2
+                        </div>
+                        <div class="card-body">
+                            <table>
+                                <tr>
+                                    <th style="padding-right: 50px; padding-bottom: 15px; ">Player</th>
+                                    <th style="padding-left: 50px;">%</th>
+                                </tr>
+
+                                <tr>
+                                    <td style="padding-right: 50px; padding-bottom: 15px; padding-top: 15px;"><a href="#">Forgeron, Dave</a></td>
+                                    <td style="padding-left: 50px;">67</td>
+                                </tr>
+
+                                <tr>
+                                    <td style="padding-right: 50px; padding-bottom: 15px;"><a href="#">Corey, Jeff</a></td>
+                                    <td style="padding-left: 50px;">52</td>
+                                </tr>
+                                <tr>
+                                    <td style="padding-right: 50px; padding-bottom: 15px;"><a href="#">Stones, Doug</a></td>
+                                    <td style="padding-left: 50px;">48</td>
+                                </tr>
+                                <tr>
+                                    <td style="padding-right: 50px; padding-bottom: 15px;"><a href="#">Colcott, Craig</a></td>
+                                    <td style="padding-left: 50px;">46</td>
+                                </tr>
+                                <tr>
+                                    <td style="padding-right: 50px; padding-bottom: 15px;"><a href="#">Seet, Kok-Wah</a></td>
+                                    <td style="padding-left: 50px;">42</td>
+                                </tr>
+                                <tr>
+                                    <td style="padding-right: 50px; padding-bottom: 15px;"><a href="#">Gadula, Curtis</a></td>
+                                    <td style="padding-left: 50px;">40</td>
+                                </tr>
+                            </table>
+                            <hr />
+                            <p class="card-text" style="color: limegreen"><i>Confirmed</i></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg">
+                    <div class="card" style="max-width: 22rem;">
+                        <div class="card-header">
+                            Position 3
+                        </div>
+                        <div class="card-body">
+                            <table>
+                                <tr>
+                                    <th style="padding-right: 50px; padding-bottom: 15px; ">Player</th>
+                                    <th style="padding-left: 50px;">%</th>
+                                </tr>
+
+                                <tr>
+                                    <td style="padding-right: 50px; padding-bottom: 15px; padding-top: 15px;"><a href="#">Vanderzalm, Brett</a></td>
+                                    <td style="padding-left: 50px;">100</td>
+                                </tr>
+
+                                <tr>
+                                    <td style="padding-right: 50px; padding-bottom: 15px;"><a href="#">Rapley, Dave</a></td>
+                                    <td style="padding-left: 50px;">67</td>
+                                </tr>
+                                <tr>
+                                    <td style="padding-right: 50px; padding-bottom: 15px;"><a href="#">Shaw, Hamish</a></td>
+                                    <td style="padding-left: 50px;">63</td>
+                                </tr>
+                                <tr>
+                                    <td style="padding-right: 50px; padding-bottom: 15px;"><a href="#">Muir, Jeff</a></td>
+                                    <td style="padding-left: 50px;">40</td>
+                                </tr>
+                                <tr>
+                                    <td style="padding-right: 50px; padding-bottom: 15px;"><a href="#">Kelm, George</a></td>
+                                    <td style="padding-left: 50px;">0</td>
+                                </tr>
+                            </table>
+                            <hr />
+                            <p class="card-text" style="color: darkred"><i>Not Confirmed</i></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg">
+                    <div class="card" style="max-width: 22rem;">
+                        <div class="card-header">
+                            Position 4
+                        </div>
+                        <div class="card-body">
+                            <table>
+                                <tr>
+                                    <th style="padding-right: 50px; padding-bottom: 15px; ">Player</th>
+                                    <th style="padding-left: 50px;">%</th>
+                                </tr>
+
+                                <tr>
+                                    <td style="padding-right: 50px; padding-bottom: 15px; padding-top: 15px;"><a href="#">Scott, Angus</a></td>
+                                    <td style="padding-left: 50px;">65</td>
+                                </tr>
+
+                                <tr>
+                                    <td style="padding-right: 50px; padding-bottom: 15px;"><a href="#">Cappelletti, Joey</a></td>
+                                    <td style="padding-left: 50px;">63</td>
+                                </tr>
+                                <tr>
+                                    <td style="padding-right: 50px; padding-bottom: 15px;"><a href="#">Roussel, Chris</a></td>
+                                    <td style="padding-left: 50px;">62</td>
+                                </tr>
+                                <tr>
+                                    <td style="padding-right: 50px; padding-bottom: 15px;"><a href="#">Lewis, Scott</a></td>
+                                    <td style="padding-left: 50px;">57</td>
+                                </tr>
+                                <tr>
+                                    <td style="padding-right: 50px; padding-bottom: 15px;"><a href="#">Purnell, Mike</a></td>
+                                    <td style="padding-left: 50px;">37</td>
+                                </tr>
+                                <tr>
+                                    <td style="padding-right: 50px; padding-bottom: 15px;"><a href="#">Devalk, Robert</a></td>
+                                    <td style="padding-left: 50px;">35</td>
+                                </tr>
+                                <tr>
+                                    <td style="padding-right: 50px; padding-bottom: 15px;"><a href="#">Hogg, Chris</a></td>
+                                    <td style="padding-left: 50px;">25</td>
+                                </tr>
+                            </table>
+                            <hr />
+                            <p class="card-text" style="color: darkred"><i>Not Confirmed</i></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <footer>
+            <small>Copyright &copy; 2019 Bits N' Bytes. All rights reserved.</small>
+        </footer>
+    </div>
+
+    <!--<nav class="navbar navbar-expand-lg navbar-light" style="background-color: #5E54A0">
+    </nav>-->
+
+</body>
+
+
+</html>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
